@@ -1,0 +1,120 @@
+.studio-bottom {
+  color: var(--primary-background-color);
+}
+
+.footer-studio-address {
+  margin-top: 8px;
+}
+
+.footer-side {
+  background-color: var(--secondary-background-color);
+}
+
+.footer-studio {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: baseline;
+}
+
+.footer-studio-bottom {
+  margin-right: 70px;
+}
+
+.info .link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-comments-color);
+}
+
+.info .link:hover,
+.info .link:focus {
+  color: var(--accent-color);
+}
+
+.add.link {
+  color: var(--primary-background-color);
+}
+
+.footer-social {
+  margin-right: 85px;
+}
+
+.footer-social-text {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--primary-background-color);
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  display: flex;
+  column-gap: 10px;
+}
+
+.footer-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--transition-dur-func);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.footer-list-icon {
+  fill: var(--primary-background-color);
+  transition: fill var(--transition-dur-func);
+
+  .footer-list-link:hover &,
+  .footer-list-link:focus & {
+    fill: var(--primary-background-color);
+  }
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-form-input {
+  background-color: var(--secondary-background-color);
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--primary-background-color);
+  padding-left: 15px;
+  outline: none;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  margin-right: 12px;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.footer-form-wrapper {
+  position: relative;
+}
+
+.footer-form-icon {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,36 @@
+.items {
+  padding-bottom: 47px;
+}
+
+.items__list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.items__indent {
+  width: 270px;
+}
+
+.items__pictures {
+  background-color: var(--button-color);
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.items__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.items__description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}

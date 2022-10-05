@@ -1,0 +1,23 @@
+.solutions {
+  background-image: url(../images/overlay.png), url(../images/bgd-photo.jpg);
+  background-size: cover;
+  background-color: var(--secondary-background-color);
+}
+
+.solutions__section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 696px;
+  text-align: center;
+}
+
+.solutions__title {
+  color: var(--primary-background-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  margin-bottom: 30px;
+}
+

@@ -1,0 +1,18 @@
+.logo {
+  font-family: Raleway, Arial;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  margin-right: 93px;
+}
+
+.studio-top {
+  color: var(--logo-color);
+}
+
+.footer-studio-bottom .logo {
+  margin-bottom: 6px;
+}
