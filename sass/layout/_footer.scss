@@ -21,22 +21,32 @@
   margin-right: 70px;
 }
 
-.info .link {
+.add {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-background-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.add-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-comments-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
-.info .link:hover,
-.info .link:focus {
-  color: var(--accent-color);
-}
-
-.add.link {
-  color: var(--primary-background-color);
-}
 
 .footer-social {
   margin-right: 85px;
